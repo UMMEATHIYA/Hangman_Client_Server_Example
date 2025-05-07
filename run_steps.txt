@@ -1,0 +1,30 @@
+python depaul_UMME-server.py words.txt 8080
+
+
+python depaul_UMME-client.py 127.0.0.1 8080
+
+
+#create words.txt file and then run the above two commands in two separate terminals 
+
+
+=>Deploy on Chameleon Cloud
+1.Set up your VMs:
+
+2. Use Chameleon Cloud to create two VMs: one for the client and one for the server.
+
+3. Make sure to connect both VMs (use SSH).
+
+4. Transfer the code:
+
+5. Upload your code to both VMs (you can use scp or rsync).
+
+6. Run the server and client:
+
+7. On the server VM, run:
+
+python depaul_USERNAME-server.py words.txt 8080
+
+
+8. On the client VM, run:
+
+python depaul_USERNAME-client.py <server_ip> 8080
